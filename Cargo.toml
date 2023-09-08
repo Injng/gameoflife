@@ -1,0 +1,16 @@
+[package]
+name = "gameoflife"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+derivative = "2.2.0"
+gloo-console = "0.3.0"
+gloo-utils = "0.2.0"
+lazy_static = "1.4.0"
+stylist = { version = "0.12.1", features = ["yew", "yew_integration", "parser"] }
+wasm-bindgen = "0.2.87"
+web-sys = { version = "0.3.64", features = ["Window", "CanvasRenderingContext2d", "HtmlCanvasElement", "Element", "DomRect"] }
+yew = { version = "0.20.0", features = ["csr"] }
